@@ -12,6 +12,7 @@ public class QuickSort {
         System.out.println("Original Array: "+ Arrays.toString(ar));
         quickSort( ar , 0 , ar.length-1);
 
+
     }
 
     public static void quickSort(int[] ar , int low , int high){
@@ -23,10 +24,12 @@ public class QuickSort {
             quickSort(ar,low , piIndex-1);
             quickSort(ar,piIndex+1 , high);
             System.out.println(Arrays.toString(ar));
+
         }
     }
 
     public static int partition(int[] ar, int low , int high){
+
             int pivot = ar[low];
             int left = low +1;
             int right = high;
@@ -56,5 +59,6 @@ public class QuickSort {
         System.out.println(" = "+Arrays.toString(ar));
         return right;
     }
+
 
 }

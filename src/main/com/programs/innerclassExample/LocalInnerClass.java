@@ -20,3 +20,4 @@ class LocalInner{
        inj.display();
    }
 }
+

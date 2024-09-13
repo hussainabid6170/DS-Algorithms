@@ -95,6 +95,4 @@ public class LinkedQueue {
         }
         System.out.println(" ");
     }
-
-
 }

@@ -5,6 +5,9 @@ import programs.utilties.UtilityClass;
 import java.util.Arrays;
 import java.util.Random;
 
+import static java.lang.Math.floor;
+
+
 public class BinarySearch {
     public static void main (String[] args){
 

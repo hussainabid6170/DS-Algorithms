@@ -1,3 +1,4 @@
+
 package programs.stacks;
 
 public class StacksLinked {
@@ -72,6 +73,7 @@ public class StacksLinked {
         }
         System.out.println();
     }
+
 
 
 

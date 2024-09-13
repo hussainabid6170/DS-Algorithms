@@ -31,4 +31,5 @@ class NonStaticInner {
         InnerClass inner = new InnerClass();
         inner.display();
     }
+
 }

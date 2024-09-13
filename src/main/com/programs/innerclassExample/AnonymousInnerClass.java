@@ -1,3 +1,4 @@
+
 package programs.innerclassExample;
 
 public class AnonymousInnerClass {

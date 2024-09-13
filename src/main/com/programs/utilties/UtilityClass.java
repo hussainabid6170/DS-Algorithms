@@ -12,10 +12,12 @@ public class UtilityClass {
         }
         return arr;
     }
+git
 
     public static void swap (int A[] , int lowIndex , int highIndex){
         int temp = A[lowIndex];
         A[lowIndex] = A[highIndex];
         A[highIndex] = temp;
     }
+
 }

@@ -134,10 +134,4 @@ public class DoubleLinkedQueue {
         }
         System.out.println(" ");
     }
-
-
-
-
-
-
 }
